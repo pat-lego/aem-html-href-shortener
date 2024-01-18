@@ -32,8 +32,7 @@ public class LinkRewriterImpl implements RequestRewriter {
         String out() default StringUtils.EMPTY;
 
     }
-
-    private Logger logger = LoggerFactory.getLogger(this.getClass());
+    
     private LinkRewriterConfig config;
 
     @Activate
